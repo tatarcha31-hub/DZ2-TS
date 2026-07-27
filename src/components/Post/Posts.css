@@ -1,0 +1,23 @@
+body{
+    background-color: gray;
+}
+.card{
+    width: 100%;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.btn{
+    margin: 0 auto;
+    margin-top: 25px;
+    border: 3px solid black;
+    color: black;
+}
+.display{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 400px);
+}
